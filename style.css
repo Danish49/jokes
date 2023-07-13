@@ -1,0 +1,96 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    transition: .2s ease-out;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+     background-color: #313158;
+}
+.container .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35rem;
+    height: 20rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    gap: 2rem;
+    text-align: center;
+    color: #cee2e9;
+    background-color: #222250;
+  
+ 
+}
+
+.container .content .advNumber{
+    color: #53ffab;
+    letter-spacing: 2px;
+}
+
+.container .content .adviceText{
+    font-size: 1.5rem;
+}
+
+.container .content .divider{
+    width: 24rem;
+}
+
+.container  .button {
+width: 4rem;
+height: 4rem;
+border-radius: 50%;
+background-color: #53ffab;
+display: grid;
+place-items: center;
+margin-top: -2rem;            
+}
+
+.container .button img{
+    width: 1.5rem;
+}
+.container  .button:hover{
+    box-shadow:  4px 4px 20px  #53ffab ,
+-4px -4px 20px  #53ffab;
+}
+
+@media(max-width:1280px){
+    html{
+        font-size: 80%;
+    }
+}
+@media(max-width:1024px){
+    html{
+        font-size: 70%;
+    }
+}
+@media(max-width:680px){
+  html{
+    font-size: 60%;
+  }
+  .content{
+    height: 26rem !important;
+  }
+}
+@media(max-width:360px){
+  html{
+    font-size: 50%;
+  }
+}
+@media(max-width:300px){
+  html{
+    font-size: 40%;
+  }
+}
+@media(max-width:260px){
+  html{
+    font-size: 30%;
+  }
+}
